@@ -1,0 +1,48 @@
+.button {
+  padding: 16px 37px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  transition: all 0.3s ease-in;
+}
+
+.button-primary {
+  border: 2px var(--orange) solid;
+  background-color: var(--orange);
+}
+
+.button-primary:hover {
+  color: #FFFFFF;
+  border: 2px #cc9214 solid;
+  background-color: #cc9214;
+}
+
+.button-primary:active {
+  box-shadow: 0 0 25px rgba(255, 182, 25, 0.5);
+}
+
+.button-secondary {
+  border: 2px var(--light-gray) solid;
+}
+
+.button-secondary:hover {
+  background-color: rgba(204, 204, 204, 0.5);
+}
+
+.button-secondary:active {
+  box-shadow: 0 0 25px rgba(204, 204, 204, 0.5);
+}
+
+.button-phone {
+  display: block;
+  background-image: url('../img/button-phone.svg');
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position: top 13px left 19px;
+  padding: 13px 19px 13px 44px;
+}
+
+.form-button {
+  width: 131px;
+}
